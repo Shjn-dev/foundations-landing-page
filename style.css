@@ -1,0 +1,90 @@
+.logo{
+    height: 50px;
+    margin: 0.5em;
+
+}
+
+.upper{
+  background-color: #1F2937;  
+  color: #F9FAF8;
+  display: flex;
+  flex-direction: column;
+}
+
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a{
+    color: #F9FAF8; 
+    text-decoration: none;
+    margin: 0.5em;
+    font-weight: 700;
+}
+
+.overview{
+    display: flex;
+    justify-content: center;
+    gap: 25em;
+    margin: 0.5em;
+}
+ button{
+     background-color: #3882f6;
+     color: #F9FAF8;
+     width: 10em;
+     align-self: center;
+     border-radius: 2em;
+     padding: 1em;
+     font-weight: 700;
+     margin-top: 3em;
+ }
+ .overviewtext{
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     width: 20em;
+     margin-bottom: 5em;
+    }
+
+
+ .upperimg{
+     width: auto;
+     max-height: 300px;
+    margin: 2em;
+ }
+
+ .stagesection{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ h2{
+    font-weight: 1000;
+    font-size: 36px;
+    color:#1F2937;
+ }
+
+ .stage-container{
+     display: flex;
+    justify-content: center;
+    gap:5em;
+    align-items: center;
+    text-align: center;
+ }
+
+ .stage>img{
+     max-height: 100px;
+     border: #3882f6;
+     border-style: solid;
+     border-radius:20px;
+     margin:;
+ }
+ .stage>p{
+     color:#1f2937;
+     max-width: 150px;
+     height: 150px;
+     font-size: 17px;
+ }
