@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/*imported roboto just to check I could, but didn't think it looked as nice*/
 
 body{
     display:flex;
     flex-direction: column;
     padding: 0px;
     margin: 0px;
+    
 }
 
 .logo{
@@ -74,6 +77,7 @@ a{
     font-weight: 1000;
     font-size: 36px;
     color:#1F2937;
+    
  }
 
  .stage-container{
