@@ -1,3 +1,11 @@
+
+body{
+    display:flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+
 .logo{
     height: 50px;
     margin: 0.5em;
@@ -30,7 +38,7 @@ a{
     gap: 25em;
     margin: 0.5em;
 }
- button{
+.signup-button{
      background-color: #3882f6;
      color: #F9FAF8;
      width: 10em;
@@ -53,9 +61,10 @@ a{
      width: auto;
      max-height: 300px;
     margin: 2em;
+    border-radius: 5em;
  }
 
- .stagesection{
+ .stage-section{
      display: flex;
      flex-direction: column;
      align-items: center;
@@ -88,3 +97,71 @@ a{
      height: 150px;
      font-size: 17px;
  }
+
+ .quote-section{
+    background-color: #e5e7eb;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    padding: 2em;
+
+
+
+ }
+ .quote{
+     font-size: 26px;
+     color:#1f2937;
+     font-style:italic;
+     width:500px;
+  
+ }
+ .quote-attrib{
+    align-self: flex-end;
+    font-weight: 800;
+    font-size: 30px;
+    color:#1f2937;
+    font-style:italic;
+ }
+.donation-section{
+    display: flex;
+    justify-content: center;
+}
+ .donation-container{
+     background-color: #3882f6;
+     margin: 2em;
+     border-radius:0.5em;
+     display:flex;
+     color:#F9FAF8;
+     justify-content:space-evenly;
+     align-items: center;
+     padding: 1em;
+ }
+ .donation-text{
+     text-align:left;
+     width: 30em;
+     margin-left: 20px;
+ }
+
+ .donation-text>p{
+     width:25em
+ }
+
+ .donation-button{
+        background-color: #3882f6;
+        color: #F9FAF8;
+        border-radius: 2em;
+        width: 10em;
+     align-self: center;
+     border-radius: 2em;
+     padding: 1em;
+     font-weight: 700;
+     border-color: #F9FAF8;
+     margin-left: 2em;
+    }
+.footer{
+    display: flex;
+    background-color: #1F2937;
+    color:#F9FAF8;
+    padding: 1em;
+    justify-content: center;
+}
